@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa el componente FontAwesomeIcon si estás utilizando Font Awesome
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa el componente FontAwesomeIcon si estás utilizando Font Awesome
+//import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
 
@@ -10,6 +10,9 @@ const VerticalMenu = () => {
         setIsOpen(!isOpen);
     };
 
+
+    // <FontAwesomeIcon icon={faBars} />
+
     return (
         <div className='p-8 flex justify-start'>
 
@@ -19,7 +22,7 @@ const VerticalMenu = () => {
 
             <div className='relative p-2 '>
                 <button className=" text-2xl menu-toggle" onClick={toggleMenu}>
-                    <FontAwesomeIcon icon={faBars} />
+                    <i class='bx bx-menu'></i>
                 </button>
 
                 {isOpen ?
