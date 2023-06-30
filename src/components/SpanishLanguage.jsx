@@ -1,24 +1,26 @@
 import React from 'react'
 
 const SpanishLanguage = () => {
+
+    /*
+  
+    */
+
+
+
     return (
         <div>
-            <div className="flex  justify-between">
-                <div>
-                    <p className="text-[20px] m-2 p-2 font-bold">¡Hola! </p>
-                </div>
 
-                {/**/}
-                <div>
-                    <p className="text-[20px] p-2 m-2 font-bold text-[#9BA4ED]"> Permíteme presentarte un resumen sobre mí y mi trayectoria: </p>
-                </div>
-
-
+            <div >
+                <p className="text-[20px] m-2 p-1 font-bold">Hola! </p>
             </div>
 
-            {/* */}
+            <div className='flex justify-center'>
+                <p className="text-[20px] p-1 m-2 font-bold text-[#9BA4ED]"> Permíteme presentarte un resumen sobre mí y mi trayectoria: </p>
+            </div>
 
-            <p className='p-2 m-2'>
+
+            <p className='p-1 m-1 '>
                 <br />
                 <br />
 
@@ -50,8 +52,7 @@ const SpanishLanguage = () => {
                 <br />
                 Estoy emocionado por lo que el futuro me depara y espero poder compartir mi entusiasmo y conocimientos con el mundo de la programación. ¡Siempre estoy abierto a nuevas oportunidades y desafíos en esta apasionante industria!</p>
 
-
-        </div>
+        </div >
     )
 }
 

@@ -5,15 +5,15 @@ const EnglishLanguage = () => {
         <div>
             <div className="flex  justify-between">
                 <div>
-                    <p className="text-[20px] m-4 p-2 font-bold">Hi! </p>
+                    <p className="text-[20px] m-2 p-1 font-bold">Hi! </p>
                 </div>
 
                 <div>
-                    <p className="text-[20px] p-2 m-4 font-bold text-[#9BA4ED]"> Allow me to present you a summary about me and my trajectory: </p>
+                    <p className="text-[20px] p-1 m-2 font-bold text-[#9BA4ED]"> Allow me to present you a summary about me and my trajectory: </p>
                 </div>
             </div>
 
-            <p className='p-2 m-4'>
+            <p className='p-1 m-2'>
                 <br />
                 <br />
 

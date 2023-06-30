@@ -12,7 +12,7 @@ const Contact = () => {
                 <div id='contact' className="flex flex-col items-center ms:max-w-[630px] h-auto p-2">
                     <h1 className='p-2 m-4 text-[#4657da]  font-bold text-[30px]'>Contact me!</h1>
                     <p className='p-2 m-4'>
-                        <span className='p-2 m-4   font-bold text-[30px]'>¡No dudes en contactarme para cualquier consulta o proyecto!</span>
+                        <span className='p-2 m-4   font-bold text-[30px]'>Do not hesitate to contact me for any question or project!</span>
                         <br />
                         <br />
                         Puedes enviarme un correo electrónico a
