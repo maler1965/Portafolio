@@ -21,27 +21,27 @@ const ModalContact = ({ changeModalShow, modalShow }) => {
 
 
 
-                    Puedes enviarme un correo electrónico a
+                    You can email me at:
                     <a href="mailto:tuemail@example.com" className="text-[#4657da] px-2 underline"> pevallos1965@gmail.com</a>
 
                     <br />
                     <br />
 
-                    o llamarme al
+                    or call me at:
                     <a href="tel:+994449692" className="text-[#4657da] px-2 underline">+593 994449692</a>.
-                    Este numero tiene WhatsApp.
+                    This number has WhatsApp.
                     <br />
                     <br />
 
-                    También puedes encontrarme en las redes sociales:
+                    You can also find me on social networks:
                     <a href="https://www.linkedin.com/" className="text-[#4657da] px-2 underline"> LinkedIn</a>
 
-                    como Peter Maler  y en
+                    as Peter Maler  and in
                     <a href="https://www.facebook.com/" className="text-[#4657da] px-2 underline"> Facebook</a>
 
-                    como Christopher Cevallos y en
+                    as Christopher Cevallos and in
                     <a href="https://www.Instagram.com/" className="text-[#4657da] px-2 underline"> Instagram </a>
-                    como peter_ventanas
+                    as peter_ventanas
 
 
                 </p>

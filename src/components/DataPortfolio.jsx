@@ -60,7 +60,24 @@ const DataPortfolio = () => {
                     
                     
                     
-
+<div>
+                            <img src="/images2/bg33.png" alt="" />
+                        </div>
+                        <div className='absolute flex justify-end m-2 px-2 pb-4'>
+                            <div className='flex justify-end p-2 m-2'>
+                                <img style={{ maxWidth: '80%', minWidth: '50%' }} src="/images2/bg31.png" alt="" />
+                            </div>
+                        </div>
+                        <div className='hidden md:block' >
+                            <div className="absolute p-2 m-2 top-0 left-0 right-0 flex justify-center">
+                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
+                            </div>
+                        </div>
+                        <div className='block md:hidden' >
+                            <div className="absolute p-4 m-2 top-0 left-0 right-0 flex justify-center">
+                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
+                            </div>
+                        </div>
  
 
 
@@ -126,7 +143,10 @@ const DataPortfolio = () => {
 
                 </div>
 
-
+                <br />
+                <br />
+                <br />
+                <br />
 
 
 
@@ -134,7 +154,7 @@ const DataPortfolio = () => {
                 <Projects />
 
 
-
+                {/* 
                 <div className='p-2 m-2 flex flex-col md:flex-row justify-center '>
 
                     <div className='p-2 m-2 flex items-center max-w-[350px]  md:w-1/2 order-1 md:order-2'>
@@ -143,33 +163,85 @@ const DataPortfolio = () => {
                         </p>
                     </div>
 
-                    <div className='p-2  relative flex flex-col justify-end  md:w-1/2 order-2 md:order-1'>
 
+
+                    <div className='p-2  relative flex flex-col justify-end   md:w-1/2 order-2 md:order-1 '>
                         <div>
                             <img src="/images2/bg33.png" alt="" />
                         </div>
-                        <div className='absolute flex justify-end m-2 px-2 pb-4'>
-                            <div className='flex justify-end p-2 m-2'>
-                                <img style={{ maxWidth: '80%', minWidth: '50%' }} src="/images2/bg31.png" alt="" />
-                            </div>
-                        </div>
-                        <div className='hidden md:block' >
-                            <div className="absolute p-4 m-4 top-0 left-0 right-0 flex justify-center">
-                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '55%', minWidth: '40%' }} />
-                            </div>
-                        </div>
-                        <div className='block md:hidden' >
-                            <div className="absolute p-4 m-2 top-0 left-0 right-0 flex justify-center">
-                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
-                            </div>
+
+                        <div className='absolute flex justify-center m-2 p-2'>
+                            <img style={{ maxWidth: '80%', minWidth: '50%' }} src="/images2/bg30.png" alt="" />
                         </div>
 
+                        <div className="absolute p-2 m-2 top-0 left-0 right-0 flex justify-center">
+                            <img className="rounded-lg overflow-hidden" src="/images1/poke.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
+                        </div>
                     </div>
 
 
 
                 </div>
+*/}
+                <br />
+                <br />
+                <br />
+                <br />
 
+                <div className='p-2 m-2 flex flex-col md:flex-row justify-center '>
+
+                    <div id='projects' className='p-2 m-2 flex items-center max-w-[350px] md:w-1/2 order-1 md:order-2'>
+                        <p className='p-4'>
+                            Get to know the crazy universe of “Rick and Morty”. A site where the user can see information about the locations of the "Rick and Morty" universe and learn about the various characters in the series.
+                        </p>
+                    </div>
+
+                    <br />
+                    <br />
+
+                    <div className='relative  md:w-1/2 order-2 md:order-1'>
+
+
+                        <div className='p-2  relative flex flex-col justify-end '>
+                            <div>
+                                <img src="/images2/bg33.png" alt="" />
+                            </div>
+
+                            <div className='absolute flex justify-end m-2 p-2'>
+                                <div className='bg-black/05 w-[90px] h-[20px] p-2 m-4'></div>
+                                <img style={{ maxWidth: '70%', minWidth: '30%' }} src="/images2/bg31.png" alt="" />
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className='hidden md:block' >
+                            <div className="absolute p-2 m-2 top-0 left-0 right-0 flex justify-center">
+                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
+                                <div className='bg-black/05 w-[100px] h-[209px] p-2 m-4'></div>
+                            </div>
+                        </div>
+
+                        <div className='block md:hidden' >
+                            <div className="absolute p-4 m-2 top-0 left-0 right-0 flex justify-center">
+                                <img className="rounded-lg overflow-hidden" src="/images1/ricly.png" alt="" style={{ maxWidth: '70%', minWidth: '20%' }} />
+                                <div className='bg-black/05 w-[20px] h-[20px] p-2 m-4'></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <br />
+                <br />
+                <br />
+                <br />
 
 
                 <div className='p-2 m-2 flex flex-col md:flex-row justify-center '>
@@ -205,14 +277,18 @@ const DataPortfolio = () => {
                                 <img className="rounded-lg overflow-hidden" src="/images1/poke.png" alt="" style={{ maxWidth: '60%', minWidth: '40%' }} />
                             </div>
                         </div>
-                        {/*
-*/}
+
                     </div>
 
 
                 </div>
 
 
+
+                <br />
+                <br />
+                <br />
+                <br />
 
 
             </section>

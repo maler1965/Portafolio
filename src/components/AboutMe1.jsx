@@ -15,7 +15,7 @@ const AboutMe1 = () => {
     return (
         <section className="flex justify-center">
             <div className='text-white bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
-                <div id='contact' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">
+                <div id='about' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">
                     <h1 className='p-2 m-4 font-bold text-[30px]'>About Me!</h1>
 
                     <div className="text-3xl">
