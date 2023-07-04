@@ -3,7 +3,7 @@ import './App.css'
 import AboutMe1 from './components/AboutMe1'
 import DataPortfolio from './components/DataPortfolio'
 import Footer from './components/Footer'
-import Background from './components/background'
+import Background from './components/Background'
 
 
 const largeShades = [
