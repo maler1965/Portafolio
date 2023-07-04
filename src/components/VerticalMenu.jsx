@@ -1,9 +1,9 @@
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa el componente FontAwesomeIcon si estás utilizando Font Awesome
-//import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 import { useState } from 'react';
 
 
 const VerticalMenu = () => {
+
     const [isOpen, setIsOpen] = useState(false)
 
     const toggleMenu = () => {
@@ -11,7 +11,6 @@ const VerticalMenu = () => {
     };
 
 
-    // <FontAwesomeIcon icon={faBars} />
 
     return (
         <div className=' flex justify-between'>

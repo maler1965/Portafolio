@@ -5,8 +5,6 @@ const ModalContact = ({ changeModalShow, modalShow }) => {
 
 
 
-
-
     const handleCloseModal = () => {
         changeModalShow()
     }

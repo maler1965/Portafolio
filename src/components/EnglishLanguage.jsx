@@ -1,8 +1,11 @@
 import React from 'react'
 
 const EnglishLanguage = () => {
+
+
     return (
         <div>
+
             <div className="flex  justify-between">
                 <div>
                     <p className="text-[20px] m-2 p-1 font-bold">Hi! </p>
@@ -44,6 +47,7 @@ const EnglishLanguage = () => {
                 <br />
                 <br />
                 I am excited for what the future holds for me and I look forward to sharing my enthusiasm and knowledge with the world of programming. I am always open to new opportunities and challenges in this exciting industry!</p>
+
         </div>
     )
 }
