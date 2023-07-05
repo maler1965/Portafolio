@@ -20,7 +20,7 @@ const AboutMe1 = () => {
                     <h1 className='p-2 m-4 font-bold text-[30px]'>About Me!</h1>
 
                     <div className="text-3xl">
-                        <img className="w-[200px] h-[200px] overflow-hidden rounded-full" src="/images1/foto.jpg" alt="" />
+                        <img className="w-[200px] h-[200px] overflow-hidden rounded-full" src="/images1/foto2.png" alt="" />
                     </div>
 
 

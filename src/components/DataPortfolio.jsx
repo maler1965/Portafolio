@@ -17,6 +17,7 @@ const DataPortfolio = () => {
 
 
 
+
     return (
 
         <div>
@@ -36,14 +37,29 @@ const DataPortfolio = () => {
                 <div className='flex flex-col md:flex-row'>
 
                     <article className='flex flex-col justify-center w-full md:w-1/2 order-2 md:order-1'>
-                        <h1 className='text-white flex pr-4 py-4 text-2xl font-bold'>
-                            <span className='text-[#9BA4ED] mx-4'>Hi!</span> I am a backend developer.
+                        <h1 className='text-white pr-4 py-4 text-2xl font-bold'>
+                            <span className='text-[#9BA4ED] mx-4'>Hi!</span>
                         </h1>
+                        <p className='text-white p-2 text-2xl font-bold'>I am a <span className='text-[#9BA4ED] mx-2'>Front-End</span> Development with <span className='text-[#9BA4ED] mx-2'>React</span>. </p>
+                        <a href="https://api.sertifier.com/userdata/08da1809-42d0-7f2f-99a4-35d57f729e7c/00c55182-f314-4c89-88b2-5cba5dcd1e0a.jpg" target="_blank" rel="noopener noreferrer" className='text-[#9BA4ED] mx-4'>See certificate</a>
+
+                        <br />
+                        <br />
+
+                        <h2 className='text-white  p-2 text-2xl font-bold'>
+                            Specialized in:
+                        </h2>
+                        <h2 className='text-white  p-2 text-2xl font-bold'>
+                            <span className='text-[#9BA4ED] '>Javascript, HTML and CSS.</span>
+                        </h2>
+                        <a href="https://certificates.academlo.com/en/verify/84616548519602" target="_blank" rel="noopener noreferrer" className='text-[#9BA4ED] mx-4'>See certificate</a>
+
+                        <br />
+                        <br />
                         <p id='home' className='p-4'>
                             I’m probably the most passionate developer you will ever get to work with.
-                            If you have a great project that needs some amazing skills, I’m your guy.
                         </p>
-                        <button className='flex justify-start p-4'> <a href="#about" className="border border-white rounded-md p-2">Click Here</a> </button>
+                        <button className='flex justify-start p-4'><h2 className='p-2'>If you want to know more about me </h2> <a href="#about" className="border border-white text-[#9BA4ED] rounded-md p-2">Click Here</a> </button>
                     </article>
 
                     <section className='w-full md:w-1/2 order-1 md:order-2'>
@@ -77,6 +93,9 @@ const DataPortfolio = () => {
                 <br />
                 <br />
 
+                <div className='flex justify-center'>
+                    <h1 className='text-[#9BA4ED] mx-2 p-2 text-center text-2xl font-bold'>SEE MY PROJECTS</h1>
+                </div>
 
 
                 <Projects />
@@ -92,7 +111,7 @@ const DataPortfolio = () => {
 
                     <div id='projects' className='p-2 m-2 flex items-center max-w-[350px] md:w-1/2 order-1 md:order-2'>
                         <p className='p-4'>
-                            Get to know the crazy universe of “Rick and Morty”. A site where the user can see information about the locations of the "Rick and Morty" universe and learn about the various characters in the series.
+                            Get to know the <span className='text-[#9BA4ED]'> crazy universe of “Rick and Morty”</span>. A site where the user can see information about the locations of the "Rick and Morty" universe and learn about the various characters in the series.
                         </p>
                     </div>
 
@@ -146,7 +165,7 @@ const DataPortfolio = () => {
 
                     <div id='projects' className='p-2 m-2 flex items-center max-w-[350px] '>
                         <p className='p-4'>
-                            See the pokemons brought from the pokeapi. Each card has information about each pokemon, you can search for information using the pokemon id or using its name
+                            See the <span className='text-[#9BA4ED]'>pokemons brought from the pokeapi</span>. Each card has information about each pokemon, you can search for information using the pokemon id or using its name
                         </p>
                     </div>
 

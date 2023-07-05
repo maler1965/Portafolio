@@ -26,8 +26,11 @@ const ModalContact = ({ changeModalShow, modalShow }) => {
                     <br />
 
                     or call me at:
-                    <a href="tel:+994449692" className="text-[#4657da] px-2 underline">+593 994449692</a>.
-                    This number has WhatsApp.
+
+                    <a href="https://wa.me/593994449692?text=Hola, es un gusto atenderte" className="text-[#4657da] px-2 underline">
+                        +593 994449692 (WhatsApp)
+                    </a>
+
                     <br />
                     <br />
 
