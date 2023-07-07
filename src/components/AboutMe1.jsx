@@ -7,16 +7,17 @@ const AboutMe1 = () => {
 
     const [language, setLanguage] = useState(false)
 
+
     const handleOnClick = () => {
         setLanguage(!language)
     }
 
 
     const { dark } = useSelector(state => state.darkSlice)
-
+    const darkValue = JSON.parse(dark);
 
     return (
-        <section className={`  ${dark ? "text-black" : " text-white"} transition-opacity`}>
+        <section className={`  ${darkValue ? "text-black" : " text-white"} transition-opacity`}>
 
             <div className=' bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
                 <div id='about' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">

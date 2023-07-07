@@ -4,6 +4,7 @@ import { setdark } from "../store/slices/dark.slice";
 function Navbar() {
 
     const { dark } = useSelector(state => state.darkSlice)
+    const darkValue = JSON.parse(dark);
     const dispatch = useDispatch()
 
     const handleDarkModeToggle = () => {
@@ -18,7 +19,7 @@ function Navbar() {
                     <img src="/images1/bg15.png" alt="" />
                 </div>
 
-                {dark ?
+                {darkValue ?
                     <div className="flex">
                         <div className=" p-2 ">
                             <button onClick={handleDarkModeToggle}><i className='text-[40px] bx bxs-moon'></i></button>

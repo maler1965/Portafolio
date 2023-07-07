@@ -12,6 +12,7 @@ const VerticalMenu = () => {
     };
 
     const { dark } = useSelector(state => state.darkSlice)
+    const darkValue = JSON.parse(dark);
     const dispatch = useDispatch()
 
     const handleDarkModeToggle = () => {
@@ -45,7 +46,7 @@ const VerticalMenu = () => {
             </div>
 
 
-            {dark ?
+            {darkValue ?
                 <div className="flex">
                     <div>
                         <h2 className="p-2 my-2">Dark Mode</h2>

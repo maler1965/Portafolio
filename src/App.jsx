@@ -21,11 +21,12 @@ function App() {
 
 
   const { dark } = useSelector(state => state.darkSlice)
-
-
+  const darkValue = JSON.parse(dark);
+  console.log({ darkValue })
+  console.log({ dark })
 
   return (
-    <main className={`min-h-screen   relative  ${dark ? "bg-white" : "bg-black"} transition-opacity`}>
+    <main className={`min-h-screen   relative  ${darkValue ? "bg-white" : "bg-black"} transition-opacity`}>
 
       <section >
 

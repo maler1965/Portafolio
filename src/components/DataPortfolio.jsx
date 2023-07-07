@@ -16,7 +16,7 @@ const largeCircles = [
 const DataPortfolio = () => {
 
     const { dark } = useSelector(state => state.darkSlice)
-
+    const darkValue = JSON.parse(dark);
 
 
     return (
@@ -35,7 +35,7 @@ const DataPortfolio = () => {
                     </div>
                 </div>
 
-                <section className={`  ${dark ? "text-black" : " text-white"} transition-opacity`}>
+                <section className={`  ${darkValue ? "text-black" : " text-white"} transition-opacity`}>
                     <div className='flex flex-col md:flex-row'>
 
                         <article className='flex flex-col justify-center text-center w-full md:w-1/2 order-2 md:order-1'>

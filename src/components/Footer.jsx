@@ -9,6 +9,7 @@ const Footer = () => {
     const changeModalShow = () => setModalShow(!modalShow);
 
     const { dark } = useSelector(state => state.darkSlice)
+    const darkValue = JSON.parse(dark);
 
     const handleOnClick = () => {
         setModalShow(!modalShow)
@@ -17,7 +18,7 @@ const Footer = () => {
 
 
     return (
-        <section id='contact' className={`flex justify-center  ${dark ? "text-black" : " text-white"} transition-opacity`}>
+        <section id='contact' className={`flex justify-center  ${darkValue ? "text-black" : " text-white"} transition-opacity`}>
 
             <div className=' bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
                 <div id='contact' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">
