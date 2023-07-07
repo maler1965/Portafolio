@@ -12,7 +12,7 @@ const SpanishLanguage = () => {
             </div>
 
             <div className='flex justify-center'>
-                <p className="text-[20px] p-1 m-2 font-bold text-[#9BA4ED]"> Permíteme presentarte un resumen sobre mí y mi trayectoria: </p>
+                <p className="text-[20px] p-1 m-2 font-bold text-[#495def]"> Permíteme presentarte un resumen sobre mí y mi trayectoria: </p>
             </div>
 
 

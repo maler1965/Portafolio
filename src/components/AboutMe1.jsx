@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import SpanishLanguage from './SpanishLanguage'
 import EnglishLanguage from './EnglishLanguage'
+import { useSelector } from 'react-redux'
 
 const AboutMe1 = () => {
 
@@ -11,11 +12,13 @@ const AboutMe1 = () => {
     }
 
 
+    const { dark } = useSelector(state => state.darkSlice)
+
 
     return (
-        <section className="flex justify-center">
+        <section className={`  ${dark ? "text-black" : " text-white"} transition-opacity`}>
 
-            <div className='text-white bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
+            <div className=' bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
                 <div id='about' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">
                     <h1 className='p-2 m-4 font-bold text-[30px]'>About Me!</h1>
 

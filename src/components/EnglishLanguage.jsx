@@ -12,7 +12,7 @@ const EnglishLanguage = () => {
                 </div>
 
                 <div>
-                    <p className="text-[20px] p-1 m-2 font-bold text-[#9BA4ED]"> Allow me to present you a summary about me and my trajectory: </p>
+                    <p className="text-[20px] p-1 m-2 font-bold text-[#495def]"> Allow me to present you a summary about me and my trajectory: </p>
                 </div>
             </div>
 
