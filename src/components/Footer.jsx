@@ -21,10 +21,14 @@ const Footer = () => {
         <section id='contact' className={`flex justify-center  ${darkValue ? "text-black" : " text-white"} transition-opacity`}>
 
             <div className=' bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden max-w-[1000px]  justify-center inline-flex '>
+
                 <div id='contact' className="flex flex-col items-center ms:max-w-[630px]  h-auto  p-2">
-                    <h1 className='p-2 m-4 font-bold text-[#495def] text-[30px]'>Contact me!</h1>
-                    <p className='p-2 m-4'>Do not hesitate to contact me for any question or project!.</p>
-                    <button onClick={handleOnClick} className='flex justify-start p-2'><span className='border border-white rounded-md p-2'>Click Here</span></button>
+                    {/*  */}
+                    <h1 className='p-2 m-2 font-bold text-[#495def] text-[20px]'>¡Contáctame!</h1>
+
+                    <p className='p-2 m-4'>¡No dudes en contactarme para cualquier consulta o proyecto!.</p>
+                    <button onClick={handleOnClick} className='flex justify-start p-2'><span className='border border-white rounded-md p-2'>clic aquí</span></button>
+
                 </div>
 
                 <ModalContact changeModalShow={changeModalShow} modalShow={modalShow} />

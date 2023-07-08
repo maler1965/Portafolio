@@ -40,24 +40,24 @@ const DataPortfolio = () => {
 
                         <article className='flex flex-col justify-center text-center w-full md:w-1/2 order-2 md:order-1'>
                             <h1 className=' pr-4 py-4 text-2xl font-bold'>
-                                <span className='text-[#495def] mx-4'>Hi!</span>
+                                <span className='text-[#495def] mx-4'>Hola</span>
                             </h1>
-                            <p className=' p-2 text-2xl font-bold'>I am a <span className='text-[#495def] mx-2'>Front-End</span> Development with <span className='text-[#495def] mx-2'>React</span> </p>
-                            <p className=' p-2 text-2xl font-bold' >Using technologies like: <span className='text-[#495def] mx-2' >Redux, React-Router</span>,</p>
-                            <p className=' p-2 text-2xl font-bold' ><span className='text-[#495def] mx-2' >Axios, React-Hook-Form, TailwindCSS</span> and others.</p>
-                            <a href="https://api.sertifier.com/userdata/08da1809-42d0-7f2f-99a4-35d57f729e7c/00c55182-f314-4c89-88b2-5cba5dcd1e0a.jpg" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>See certificate</a>
+                            <p className=' p-2 text-2xl font-bold'>Soy un programador<span className='text-[#495def] mx-2'>Front-End</span> usando la tecnologia <span className='text-[#495def] mx-2'>React</span> </p>
+                            <p className=' p-2 text-2xl font-bold' >Con habilidades en el uso de: <span className='text-[#495def] mx-2' >Redux, React-Router,</span></p>
+                            <p className=' p-2 text-2xl font-bold' ><span className='text-[#495def] mx-2' >Axios, React-Hook-Form, TailwindCSS</span> y otros.</p>
+                            <a href="https://api.sertifier.com/userdata/08da1809-42d0-7f2f-99a4-35d57f729e7c/00c55182-f314-4c89-88b2-5cba5dcd1e0a.jpg" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>Ver Certificado</a>
 
                             <br />
                             <br />
                             <br />
 
                             <h2 className='  p-2 text-2xl font-bold'>
-                                Specialized in:
+                                Utilizo los siguientes lenguajes:
                             </h2>
                             <h2 className='  p-2 text-2xl font-bold'>
                                 <span className='text-[#495def] '>Javascript, HTML and CSS.</span>
                             </h2>
-                            <a href="https://certificates.academlo.com/en/verify/84616548519602" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>See certificate</a>
+                            <a href="https://certificates.academlo.com/en/verify/84616548519602" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>Ver Certificado</a>
 
                             <br />
                             <br />
@@ -65,9 +65,16 @@ const DataPortfolio = () => {
 
                             <div className='bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden'>
                                 <p id='home' className='p-4'>
-                                    I’m probably the most passionate developer you will ever get to work with.
+                                    Con dedicación y entrega en el trabajo, es posible alcanzar grandes logros,
                                 </p>
-                                <button className='flex justify-start p-4'><h2 className='p-2'>If you want to know more about me </h2> <a href="#about" className="border border-white text-[#495def] rounded-md p-2">Click Here</a> </button>
+
+                                <p className='p-4'>
+                                    y esta mentalidad impulsa mi trayectoria profesional.
+                                </p>
+                                <h2 className='p-2'>Soy Pedro Cevallos. Si deseas conocer mas detalles de mi, </h2>
+                                <div className='flex justify-center'>
+                                    <button className='flex justify-center p-4'> <a href="#about" className=" border border-white text-[#495def] rounded-md p-2">clic aquí</a> </button>
+                                </div>
                             </div>
                         </article>
 
@@ -103,9 +110,12 @@ const DataPortfolio = () => {
                     <br />
 
                     <div className='flex justify-center'>
-                        <h1 className='text-[#495def] mx-2 p-2 text-center text-2xl font-bold'>SEE MY PROJECTS</h1>
+                        <h1 className='text-[#495def] mx-2 p-2 text-center text-2xl font-bold'>MIRA MIS PROYECTOS</h1>
                     </div>
 
+                    <div className='flex justify-center'>
+                        <h2 className='text-[#495def] mx-2 p-2 text-center text-2xl font-bold'>UTILIZANDO LAS TECNOLOGIAS ANTES MENCIONADAS</h2>
+                    </div>
 
                     <Projects />
 
@@ -120,7 +130,7 @@ const DataPortfolio = () => {
 
                         <div id='projects' className='p-2 m-2 flex items-center max-w-[350px] md:w-1/2 order-1 md:order-2'>
                             <p className='p-4'>
-                                Get to know the <span className='text-[#495def]'> crazy universe of “Rick and Morty”</span>. A site where the user can see information about the locations of the "Rick and Morty" universe and learn about the various characters in the series.
+                                Conozca el  <span className='text-[#495def]'> loco univerzo de “Rick and Morty”</span>. Un sitio donde el usuario puede ver información sobre los universos de la serie de caricatura de "Rick and Morty" y aprender sobre los distintos personajes de la serie..
                             </p>
                         </div>
 
@@ -174,7 +184,7 @@ const DataPortfolio = () => {
 
                         <div id='projects' className='p-2 m-2 flex items-center max-w-[350px] '>
                             <p className='p-4'>
-                                See the <span className='text-[#495def]'>pokemons brought from the pokeapi</span>. Each card has information about each pokemon, you can search for information using the pokemon id or using its name
+                                Vea los <span className='text-[#495def]'>pokemons traidos de la base de datos de pokeapi</span>. Cada tarjeta tiene información de cada pokemon, puedes buscar información usando el id del pokemon o usando su nombre
                             </p>
                         </div>
 

@@ -34,13 +34,13 @@ const VerticalMenu = () => {
                                 <i className='bx bx-message-square-x'  ></i>
                             </button>
                         </div>
-                        <a href="#home" className="p-2 px-4 mx-8">Home</a>
+                        <a href="#home" className="p-2 px-4 mx-8">Inicio</a>
                         <hr />
-                        <a href="#projects" className=" p-2 px-4 mx-8">Projects</a>
+                        <a href="#projects" className=" p-2 px-4 mx-8">Proyectos</a>
                         <hr />
-                        <a href="#about" className=" p-2 mx-auto">About Me</a>
+                        <a href="#about" className=" p-2 mx-auto">Acerca de mí</a>
                         <hr />
-                        <a href="#contact" className=" p-2 mx-auto">Contact Me</a>
+                        <a href="#contact" className=" p-2 mx-auto">Contáctame</a>
                         <hr />
                     </div> : <div></div>}
             </div>
@@ -49,7 +49,7 @@ const VerticalMenu = () => {
             {darkValue ?
                 <div className="flex">
                     <div>
-                        <h2 className="p-2 my-2">Dark Mode</h2>
+                        <h2 className="p-2 my-2">Modo Oscuro</h2>
                     </div>
 
                     <div className=" p-2 ">
@@ -59,7 +59,7 @@ const VerticalMenu = () => {
                 :
                 <div className="flex">
                     <div>
-                        <h2 className="p-2 my-2">Clear Mode</h2>
+                        <h2 className="p-2 my-2">Modo Claro</h2>
                     </div>
 
                     <div className=" p-2 ">

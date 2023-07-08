@@ -89,6 +89,7 @@ function App() {
 
         <div className='absolute top-0 left-0 w-full h-full flex  flex-col items-center'>
 
+
           <div className='relative'>
             <DataPortfolio />
           </div>
@@ -97,7 +98,7 @@ function App() {
           <div>
             <AboutMe1 />
           </div>
-
+          {/* */}
           <div>
             <Footer />
           </div>

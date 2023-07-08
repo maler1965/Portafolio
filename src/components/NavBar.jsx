@@ -26,7 +26,7 @@ function Navbar() {
                         </div>
 
                         <div>
-                            <h2 className="p-2 my-2">Dark Mode</h2>
+                            <h2 className="p-2 my-2">Modo Oscuro</h2>
                         </div>
                     </div>
                     :
@@ -36,7 +36,7 @@ function Navbar() {
                         </div>
 
                         <div>
-                            <h2 className="p-2 my-2">Clear Mode</h2>
+                            <h2 className="p-2 my-2">Modo Claro</h2>
                         </div>
                     </div>
                 }
@@ -44,10 +44,10 @@ function Navbar() {
 
 
                 <div className="flex justify-center ml-auto">
-                    <a href="#home" className="p-2 mr-4 ml-4">Home</a>
-                    <a href="#projects" className="p-2 mr-4 ml-4">Projects</a>
-                    <a href="#about" className="p-2 mr-4 ml-4">About Me</a>
-                    <a href="#contact" className="p-2 mr-4 ml-4">Contact Me</a>
+                    <a href="#home" className="p-2 mr-4 ml-4">Inicio</a>
+                    <a href="#projects" className="p-2 mr-4 ml-4">Proyectos</a>
+                    <a href="#about" className="p-2 mr-4 ml-4">Acerca de mí</a>
+                    <a href="#contact" className="p-2 mr-4 ml-4">Contáctame</a>
                 </div>
             </div>
 
