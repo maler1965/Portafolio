@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
 
                     <div className='bg-stone-900 bg-opacity-50 rounded-xl shadow-md gap-4 flex flex-col justify-between w-[202px] h-[200px] m-2 p-2'>
-                        <a href="https://incandescent-elf-07668f.netlify.app/" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://calm-taffy-40d511.netlify.app" target="_blank" rel="noopener noreferrer" >
                             <p className='px-4 flex justify-center text-[40px] text-center'><i className='bx bx-cloud-light-rain'></i> </p>
                             <p className='px-4 flex justify-center bg-white rounded-xl text-[#495def] font-bold text-center'> ESTADO DEL TIEMPO</p>
                             <p className='px-4 flex justify-center text-center'>Se Muestra información sobre el clima en el lugar donde estás</p>

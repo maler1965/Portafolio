@@ -40,7 +40,7 @@ return (
 
                         <article className='flex flex-col justify-center text-center w-full md:w-1/2 order-2 md:order-1'>
                             <h1 className=' pr-4 py-4 text-2xl font-bold'>
-                                <span className='text-[#495def] mx-4'>Hola</span>
+                                <span className='text-[#495def] mx-4'>¡HOLA!</span>
                             </h1>
                             <p className=' p-2 text-2xl font-bold'>Soy un programador<span className='text-[#495def] mx-2'>full-stack</span> usando la tecnologia <span className='text-[#495def] mx-2'>React</span> </p>
                             <p className=' p-2 text-2xl font-bold' >Con habilidades en el uso de: <span className='text-[#495def] mx-2' >Redux, React-Router,</span></p>
