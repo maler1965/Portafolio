@@ -74,7 +74,7 @@ return (
 
                             <h2 className='p-2'>Soy <span className='font-bold' >PEDRO CEVALLOS </span> </h2>
                                 <a href="/CV_Resume.pdf" target="_blank" rel="noopener noreferrer" >
-                                <p className='px-4 flex justify-center text-[40px] text-center'><i className='bx bxl-facebook-circle'></i> </p>
+                                <p className='px-4 flex justify-center text-[40px] text-center'><i className='bx bxs-file-pdf'></i> </p>
                                           
                                <div className="flex justify-center">
                                 <div className="bg-white rounded-xl px-4">
