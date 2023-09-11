@@ -6,12 +6,12 @@ const EnglishLanguage = () => {
     return (
         <div>
 
-            <div className="flex  justify-between">
+            <div >
                 <div>
                     <p className="text-[20px] m-2 p-1 font-bold">Hi! </p>
                 </div>
 
-                <div>
+                <div className='flex justify-center'>
                     <p className="text-[20px] p-1 m-2 font-bold text-[#495def]"> Allow me to present you a summary about me and my trajectory: </p>
                 </div>
             </div>

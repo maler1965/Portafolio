@@ -30,13 +30,11 @@ const Background = () => {
                 <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
             </div>
 
-            <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
-                <img className='w-20p  h-auto' src={largeShades[4]} alt="" />
-            </div>
 
             <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
-                <img className='w-20p  h-auto' src={largeShades[5]} alt="" />
+                <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
             </div>
+
         </div>
     )
 }

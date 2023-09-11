@@ -19,7 +19,7 @@ const DataPortfolio = () => {
     const darkValue = JSON.parse(dark);
 
 
-    return (
+return (
 
         <div>
 
@@ -42,10 +42,14 @@ const DataPortfolio = () => {
                             <h1 className=' pr-4 py-4 text-2xl font-bold'>
                                 <span className='text-[#495def] mx-4'>Hola</span>
                             </h1>
-                            <p className=' p-2 text-2xl font-bold'>Soy un programador<span className='text-[#495def] mx-2'>Front-End</span> usando la tecnologia <span className='text-[#495def] mx-2'>React</span> </p>
+                            <p className=' p-2 text-2xl font-bold'>Soy un programador<span className='text-[#495def] mx-2'>full-stack</span> usando la tecnologia <span className='text-[#495def] mx-2'>React</span> </p>
                             <p className=' p-2 text-2xl font-bold' >Con habilidades en el uso de: <span className='text-[#495def] mx-2' >Redux, React-Router,</span></p>
                             <p className=' p-2 text-2xl font-bold' ><span className='text-[#495def] mx-2' >Axios, React-Hook-Form, TailwindCSS</span> y otros.</p>
-                            <a href="https://api.sertifier.com/userdata/08da1809-42d0-7f2f-99a4-35d57f729e7c/00c55182-f314-4c89-88b2-5cba5dcd1e0a.jpg" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>Ver Certificado</a>
+                            <a href="https://certificates.academlo.com/en/verify/48476009899155" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>Ver Certificado de React</a>
+
+                            <p className=' p-2 text-2xl font-bold'>Ademas utilizo<span className='text-[#495def] mx-2'>NODEJS</span> usando tecnologias como <span className='text-[#495def] mx-2'>Express</span> </p>
+                            <p className=' p-2 text-2xl font-bold' >Con habilidades en el uso de: <span className='text-[#495def] mx-2' >Routers, Base de Datos PostgreSQL, con Sequelize.</span></p>
+                            <a href="https://certificates.academlo.com/en/verify/20382813966572?ref=email" target="_blank" rel="noopener noreferrer" className='text-[#495def] mx-4'>Ver Certificado de Nodejs</a>
 
                             <br />
                             <br />
@@ -63,19 +67,45 @@ const DataPortfolio = () => {
                             <br />
                             <br />
 
+
+                        <div  >
+
                             <div className='bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden'>
-                                <p id='home' className='p-4'>
+
+                            <h2 className='p-2'>Soy <span className='font-bold' >PEDRO CEVALLOS </span> </h2>
+                                <a href="/CV_Resume.pdf" target="_blank" rel="noopener noreferrer" >
+                                <p className='px-4 flex justify-center text-[40px] text-center'><i className='bx bxl-facebook-circle'></i> </p>
+                                          
+                               <div className="flex justify-center">
+                                <div className="bg-white rounded-xl px-4">
+                                   <p className="text-[#495def] font-bold text-center">Mira mi CV</p>
+                                 </div>
+                                </div>
+
+                                </a>
+                           
+
+                            <br />
+                            <br />
+
+                                <p id='home' className='p-2'>
                                     Con dedicación y entrega en el trabajo, es posible alcanzar grandes logros,
                                 </p>
 
-                                <p className='p-4'>
+                                <p className='p-2'>
                                     y esta mentalidad impulsa mi trayectoria profesional.
                                 </p>
-                                <h2 className='p-2'>Soy Pedro Cevallos. Si deseas conocer mas detalles de mi, </h2>
+                                <h2 className='p-2'> Si deseas conocer mas detalles de mi, </h2>
                                 <div className='flex justify-center'>
                                     <button className='flex justify-center p-4'> <a href="#about" className=" border border-white text-[#495def] rounded-md p-2">clic aquí</a> </button>
                                 </div>
                             </div>
+
+                              
+
+
+                            </div>
+
                         </article>
 
                         <section className='w-full md:w-1/2 order-1 md:order-2'>
@@ -99,7 +129,24 @@ const DataPortfolio = () => {
                                 <div className='w-auto ms:max-w-[450px]'>
                                     <img className='object-contain' src={largeCircles[4]} alt='' />
                                 </div>
+
+                                
                             </div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+                            <div className="flex justify-center">               
+                                 <div className=" rounded-full overflow-hidden w-[350px] h-[350px]">
+                                     <img src="/images2/espacio1.jpg" alt="" className="flex justify-center w-full h-full object-cover" />
+                                </div>
+                             </div>
+
                         </section>
 
                     </div>
@@ -190,7 +237,7 @@ const DataPortfolio = () => {
 
 
                         <div className='relative'>
-                            <a href="https://jocular-sopapillas-633df9.netlify.app/" target="_blank" rel="noopener noreferrer" >
+                            <a href="https://rococo-crepe-45147b.netlify.app/" target="_blank" rel="noopener noreferrer" >
 
 
                                 <div className='p-2  relative flex flex-col justify-end '>
