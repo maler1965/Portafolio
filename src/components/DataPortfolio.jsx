@@ -142,7 +142,7 @@ return (
                             <br />
 
                             <div className="flex justify-center">               
-                                 <div className=" rounded-full overflow-hidden w-[350px] h-[350px]">
+                                 <div className=" rounded-full overflow-hidden w-[300px] h-[300px]">
                                      <img src="/images2/espacio1.jpg" alt="" className="flex justify-center w-full h-full object-cover" />
                                 </div>
                              </div>

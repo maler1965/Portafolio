@@ -30,9 +30,19 @@ function App() {
 
       <section >
 
+        <div>
+         
+        <div className='hidden md:block'>
         <Background />
 
-        {/*<div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+        
+
+        </div>
+
+        <div className='block md:hidden'>
+
+        {/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/}
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
           <img className='w-20p  h-auto' src={largeShades[2]} alt="" />
         </div>
 
@@ -56,11 +66,73 @@ function App() {
           <img className='w-20p  h-auto' src={largeShades[5]} alt="" />
         </div>
 
-        */}
+         <Background />
 
-       
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[4]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[5]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[2]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[4]} alt="" />
+        </div>
+
+        {/**/}  <Background />
+
+        {/**/}  <Background />
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[4]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[2]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[3]} alt="" />
+        </div>
+
+        <div className='sm:grid-cols-[1fr_auto]  mx-auto'>
+          <img className='w-20p  h-auto' src={largeShades[4]} alt="" />
+        </div>
+
+        
+
+        
+
+      </div>
+      </div>
+
+     
 
 
+
+
+{/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/}
         <div className='absolute top-0 left-0 w-full h-full flex  flex-col items-center'>
 
 
