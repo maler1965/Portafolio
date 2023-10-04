@@ -73,7 +73,7 @@ return (
                             <div className='bg-stone-700 bg-opacity-30 p-4 m-8 rounded-xl overflow-x-hidden'>
 
                             <h2 className='p-2'>Soy <span className='font-bold' >PEDRO CEVALLOS </span> </h2>
-                                <a href="/CV_Resume.pdf" target="_blank" rel="noopener noreferrer" >
+                                <a href="/CV_Pedro_Cevallos.pdf" target="_blank" rel="noopener noreferrer" >
                                 <p className='px-4 flex justify-center text-[40px] text-center'><i className='bx bxs-file-pdf'></i> </p>
                                           
                                <div className="flex justify-center">
